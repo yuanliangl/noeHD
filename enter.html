@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1号店登入</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/enter.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="logo-box box_size">
+        <div class="logo_wrap ">
+            <a href="https://www.yhd.com/" class="logo_img float_left">
+                <img src="https://passport.yhd.com/front-passport/passport/images/loginlogo.jpg" alt="">
+            </a>
+            <div class="logo_text float_right">
+                <div class="help-wrap float_right">
+                    <ul class="help_right box_size">
+                        <li>
+                            <a href="http://cms.yhd.com/cms/view.do?topicId=12">
+                                <i class="iconfont icon-youyongquan"></i>
+                                帮助中心
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <ul class="nav_two">
+                            <li>
+                                <a href="http://home.yhd.com/order/toOrderList.do">包裹跟踪</a>
+                            </li>
+                            <li>
+                                <a href="http://cms.yhd.com/cms/view.do?topicId=12 ">常见问题</a>
+                            </li>
+                            <li>
+                                <a href="http://rma.yhd.com/return/returnApplyList.do">在线退换货</a>
+                            </li>
+                            <li>
+                                <a href="http://cms.yhd.com/cms/view.do?topicId=43">在线投诉</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <span class="help_text float_left">
+                    你好，欢迎光临1号店！
+                    <!-- 登入文件地址 -->
+                    <a href="" class="dr">请登入</a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+    <!-- content -->
+    <div id="content">
+        <div class="con_box ">
+            <div class="con_left float_left">
+                <a class="con_img">
+                    <img src="https://passport.yhd.com/front-passport/passport/images/login_pic.png" alt="">
+                </a>
+            </div>
+            <div class="con_right float_right">
+
+                <!-- js动态改变 -->
+                <span class="hint">请输入密码</span>
+                <div class="enter_txt">
+                    <h4>1号店用户登入</h4>
+                    <a href="./enroll.html">注册新账号</a>
+                </div>
+                <div class="enter_name">
+                    <svg class="icon I1" aria-hidden="true">
+                        <use xlink:href="#icon-yonghu"></use>
+                    </svg>
+                    <input type="text" class="username" id="userName" placeholder="邮箱/手机/用户名">
+                </div>
+                <div class="enter_pass">
+                    <svg class="icon I2" aria-hidden="true">
+                        <use xlink:href="#icon-mima"></use>
+                    </svg>
+                    <input type="password" class="userpass" id="userPass" placeholder="密码">
+                </div>
+                <div class="enter_motion">
+                    <input type="checkbox" class="checked" />自动登录
+                    <a href="https://passport.yhd.com/passport/find_pwd_input.do" class="wjmm">忘记密码?</a>
+                </div>
+                <!-- js鼠标滑过改变鼠标样式 -->
+                <input type="submit" id="enter_dr" value="登入">
+                <!-- 更多合作 需要js绑定点击事件 -->
+                <p class="hz">更多合作网站账号登录</p>
+                <div class="hz-box">
+                    <a href="https://passport.yhd.com/qq/login.do">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-lujing5657"></use>
+                        </svg>
+                    </a>
+                    <a href="https://passport.yhd.com/jingdong/login.do">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-jd"></use>
+                        </svg>
+                    </a>
+                    <a href="https://passport.yhd.com/wechat/login.do">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-sousuo"></use>
+                        </svg>
+                    </a>
+                    <a href="https://passport.yhd.com/sina/login.do">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-weibo"></use>
+                        </svg>
+                    </a>
+
+                    <!-- js 点击显示效果 -->
+                    <a class="gdhz">更多合作网站</a>
+                    <div class="gdhz_box">
+                        <a href="https://passport.yhd.com/alipay/login.do">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-zhifubao"></use>
+                                <i>支付宝</i>
+                            </svg>
+                        </a>
+                        <a href="https://passport.yhd.com/netease/login.do">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-wangyi"></use>
+                                <i>网易</i>
+                            </svg>
+                        </a>
+                        <a href="https://passport.yhd.com/baidu/login.do">
+                            <svg class="icon I2" aria-hidden="true">
+                                <use xlink:href="#icon-baidu"></use>
+                                <i>百度</i>
+                            </svg>
+                        </a>
+                        <a href="https://passport.yhd.com/renren/login.do">
+                            <svg class="icon I2" aria-hidden="true">
+                                <use xlink:href="#icon-renren"></use>
+                                <i>人人网</i>
+                            </svg>
+                        </a>
+                        <a href="https://passport.yhd.com/wanlitong/login.do">
+                            <svg class="icon I2" aria-hidden="true">
+                                <use xlink:href="#icon-iconzhenghe42"></use>
+                                <i>平安万里通</i>
+                            </svg>
+                        </a>
+                        <a href="https://passport.yhd.com/mogujie/login.do">
+                            <svg class="icon I2" aria-hidden="true">
+                                <use xlink:href="#icon-mogujieicon"></use>
+                                <i>蘑菇街</i>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <a href="http://www.miibeian.gov.cn/">沪ICP备16050468号</a>|
+        <a href="">沪B2-20170039</a>|
+        <a href="http://d7.yihaodianimg.com/N09/M07/BD/7B/ChEi11kJnKaAJQMrAAK-LnhML4o60600.jpg">营业执照</a>
+        <span>Copyright © 1号店网上超市 2007-2018，All Rights Reserved</span>
+    </div>
+</body>
+
+</html>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="./icon/font-enter/iconfont.js"></script>
+
+<script src="js/enter.js">
+    // $("#userName").focus(function () {
+    //     $(this).attr("placeholder", "");
+    // });
+    // // 注册请求
+    // $("#enter_dr").click(function () {
+    //     $.post(
+    //         "./php/checkEnter.php",
+    //         { "username": $("#userName").val(), "userpass": $("#userPass").val() },
+    //         function show(str) {
+    //             if (str == "1") {
+    //                 // 获取当前时间
+    //                 let s = new Date();
+    //                 // 设置保存时间
+    //                 s.setDate(s.getDate() + 10);
+    //                 // cookie
+    //                 document.cookie = "username=" + $("#userName").val() + ";expires=" + s.toGMTString();
+    //                 $(".hint").css({ "background": "blur", "display": "block" }).html("<a href='homepage.html'>登入成功,点击登入</a>");
+    //             } else if (str == "0") {
+    //                 $(".hint").html("登入失败，用户名或密码错误").css({ "display": "block" });
+    //             } else {
+    //                 $(".hint").html("登入失败，服务器走丢了").css({ "display": "block" });
+    //             }
+    //         }
+    //     )
+    // });
+
+</script>

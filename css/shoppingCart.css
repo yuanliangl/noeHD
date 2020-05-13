@@ -1,4 +1,6 @@
 @charset "utf-8";
+
+}
 #gheader-wrap {
     width: 100%;
     height: none;
@@ -9,7 +11,6 @@
     background: #f4f4f4;
     border-bottom:1px solid #e5e5e5;
 }
-
 .header-top{
     margin: 0 auto;
     width:1228px;
